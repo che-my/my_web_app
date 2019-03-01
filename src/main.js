@@ -1,6 +1,10 @@
 import Vue from 'vue'
+import Vuetify from 'vuetify'
 import './plugins/vuetify'
 import App from './App.vue'
+import 'babel-polyfill'
+
+Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 
